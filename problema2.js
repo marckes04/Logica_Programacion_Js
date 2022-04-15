@@ -9,4 +9,5 @@ function palindromo(texto){
     return (texto === invertido);
 }
 
-console.log("Es un palindromo"+ " "+ palindromo("mom"))
+console.log("Es un palindromo"+ " "+ palindromo("mam"))
+console.log("Es un palindromo"+ " "+ palindromo("moc"))
