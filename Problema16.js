@@ -17,7 +17,8 @@ function CountVocals(texto){
 
 for( let i = 0 ; i < letra.length; i++)
 {
-    if(letra[i] == 'a' || letra[i] == 'e' || letra[i] == 'i' || letra[i] == 'o' || letra[i] == 'u')
+    if(letra[i] == 'a' || letra[i] == 'e' || letra[i] == 'i' || letra[i] == 'o' || letra[i] == 'u'
+    || letra[i] == 'A' || letra[i] == 'E' || letra[i] == 'I' || letra[i] == 'O' || letra[i] == 'U ')
     {
         conteo++;
     }
